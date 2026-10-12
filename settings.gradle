@@ -10,4 +10,4 @@ pluginManagement {
 }
 
 // Should match your modid
-rootProject.name = 'excavator'
+rootProject.name = 'ore-excavator'

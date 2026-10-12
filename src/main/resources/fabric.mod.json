@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "excavator",
+	"id": "ore-excavator",
 	"version": "${version}",
-	"name": "excavator",
+	"name": "Ore excavator",
 	"description": "Easy way to mine!",
 	"authors": [
 		"VideoRab"
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/excavator/icon.png",
+	"icon": "assets/ore-excavator/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"me.videorab.Excavator"
+			"me.videorab.OreExcavator"
 		],
 		"client": [
-			"me.videorab.client.ExcavatorClient"
+			"me.videorab.client.OreExcavatorClient"
 		]
 	},
 	"mixins": [
-		"excavator.mixins.json",
+		"ore-excavator.mixins.json",
 		{
-			"config": "excavator.client.mixins.json",
+			"config": "ore-excavator.client.mixins.json",
 			"environment": "client"
 		}
 	],

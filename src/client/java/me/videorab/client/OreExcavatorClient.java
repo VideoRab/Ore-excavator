@@ -6,7 +6,7 @@ import me.videorab.client.events.PlayerOnSneakStartEvent;
 import me.videorab.client.listeners.PlayerOnSneakStartListener;
 import net.fabricmc.api.ClientModInitializer;
 
-public class ExcavatorClient implements ClientModInitializer {
+public class OreExcavatorClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		ModBlocks.initialize();
